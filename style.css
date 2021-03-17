@@ -1,0 +1,8 @@
+.navbar.transparent {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.push-in {
+    padding: 30px;
+    margin: 60px;
+}
