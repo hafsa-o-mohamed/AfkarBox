@@ -1,0 +1,140 @@
+.container-fluid.main {
+    position: relative;
+    /* To make the navbar positions relative to this container */
+    padding: 0;
+}
+
+
+/*
+.navbar.transparent {
+    background: rgba(0, 0, 0, 0.3);
+}
+*/
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.testing {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
+    background-size: 300% 300%;
+    -webkit-animation: Background 25s ease infinite;
+    -moz-animation: Background 25s ease infinite;
+    animation: Background 25s ease infinite;
+}
+
+.maintxt {
+    font-weight: 800;
+    font-size: 6em;
+    letter-spacing: -2px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.cta {
+    size: 10em;
+    font-size: 2em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+
+.btn-lg {
+    font-size: 2em;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.display-1 {
+    text-align: center;
+}
+
+.maintxt2 {
+    font-weight: 400;
+    color: aliceblue;
+    text-align: center;
+}
+
+@-webkit-keyframes Background {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Background {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Background {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.push-in {
+    padding: 30px;
+    margin: 60px;
+}
+
+.navbar {
+    padding-right: 120px;
+    padding-left: 120px;
+    background-image: none;
+    background-color: transparent;
+    /* Make the menu become transparent */
+    border-radius: 0px;
+    border: 0;
+    box-shadow: none;
+    position: absolute;
+    /* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    /* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
+}
+
+.navbar-brand {
+    padding-right: 50px;
+    color: white;
+}
+
+.bar-text {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.item-text {
+    color: black;
+}
+
+.icons {
+    padding: 10px;
+    color: white;
+}
